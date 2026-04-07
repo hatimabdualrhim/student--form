@@ -1,0 +1,79 @@
+body
+{
+    
+    font-family: "tahma",Arial, sans-serif;
+    background: linear-gradient(to right,#4facfe,#00f2fe);
+    margin: 0;
+    padding: 0;
+    direction: rt1;
+}
+form
+{
+background-color: white;
+width: 400px;
+margin: 60px auto;
+padding: 25px;
+border-radius: 15px ; 
+box-shadow: 0 10px 25rgba (0,0,0,0,2);
+
+
+}
+h1
+{
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+h2
+{
+    text-align: center;
+    color:#333;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+table
+{
+    width: 100%;
+}
+td
+{
+    padding: 10px;
+    font-size: 14px;
+}
+input
+{
+    width: 100%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    outline: 1px solid#ccc;
+    transition: 0.3s;
+}
+input:focus
+{
+    border-color: #4facfe;
+    box-shadow: 0 0 5px #4facfe;
+}
+input[type="submit" ]
+{
+    background:#4facfe ;
+    color:white;
+    border: none;
+    cursor: pointer;
+    transition: 0 .3s;
+
+}
+input[type="submit"]:hover
+{
+    background: #05c1f5;
+}
+input
+{
+    border: none;
+    border-bottom: 2px solid#ccc;
+}
+input,textarea
+{
+    border: none;
+    outline: none;
+}
